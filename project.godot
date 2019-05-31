@@ -19,6 +19,11 @@ config/name="Dodge the Creeps!"
 run/main_scene="res://scenes/Hello.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=480
+window/size/height=720
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
