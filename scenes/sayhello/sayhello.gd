@@ -7,3 +7,7 @@ func _ready():
 
 func _on_Button_pressed():
 	get_node("Label").text = "Hello!"
+	$SwitchSceneTimer.start()
+
+func _on_SwitchSceneTimer_timeout():
+	get_tree().change_scene("res://scenes/Main/Main.tscn")
